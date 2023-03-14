@@ -4,14 +4,38 @@
     box-sizing: border-box;
     font-family: poppins;
 }
-.nav-bar {
+.nav-bar, .group1, .group2, .group3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: red;
+    margin: 20px;
 }
 
 .body-div {
     display: flex;
     justify-content: space-around;
     margin: 40px;
+}
+.menu-btn {
+    border: none;
+    outline: none;
+}
+
+.search-input {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-size: 25px;
+    margin: 10px 0px 0px 60px;
+    border: 2px solid rgb(154, 148, 148);
+    padding: 10px;
+}
+
+.search-icon, .microphone {
+    border: none;
+    height: 50px;
+    margin: 20px;
+}
+
+.group1 > div {
+    margin: 0px 20px;
 }
