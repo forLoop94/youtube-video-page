@@ -67,7 +67,9 @@
 .preview-section > img {
     border-radius: 10px;
 }
-
+iframe {
+    border-radius: 10px;
+}
 .preview-title {
     font-weight: 700;
     margin-bottom: 20px;
