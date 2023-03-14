@@ -42,13 +42,34 @@
 
 .side-bar-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     font-weight: 600;
+    margin: 0px 20px;
 }
 .side-bar-nav > div {
     background-color: rgb(224, 227, 230);
-    margin: 20px;
+    margin: 5px;
     font-size: 18px;
     border-radius: 10px;
     padding: 10px;
+}
+
+.preview-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    font-size: 18px;
+}
+
+.preview-section > div {
+    margin: 5px 20px;
+}
+.preview-section > img {
+    border-radius: 10px;
+}
+
+.preview-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 300px;
 }
