@@ -75,3 +75,36 @@ iframe {
     margin-bottom: 20px;
     width: 300px;
 }
+.account-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.account-info-g1 {
+    display: flex;
+    justify-content: space-between;
+}
+.account-info-g1 > div {
+    margin: 20px;
+}
+.name-subscribers {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-video-title {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.subscribe-button {
+    background-color: black;
+    border-radius: 35px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.account-info-g2 > img{
+    margin: 0px 25px;
+}
