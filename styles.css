@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     color: red;
-    margin: 5px;
+    padding: 5px 15px;
 }
 
 .body-div {
