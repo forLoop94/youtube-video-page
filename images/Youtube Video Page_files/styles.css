@@ -24,12 +24,12 @@
 }
 
 .search-input {
-    border-radius: 40px;
-    width: 900px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     font-size: 25px;
     margin: 10px 0px 0px 60px;
     border: 2px solid rgb(154, 148, 148);
-    padding: 10px 30px;
+    padding: 10px;
 }
 
 .search-icon, .microphone {
