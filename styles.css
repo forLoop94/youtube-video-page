@@ -16,7 +16,7 @@
 .body-div {
     display: flex;
     justify-content: center;
-    
+    padding: 0px 200px;
 }
 .menu-btn {
     border: none;
