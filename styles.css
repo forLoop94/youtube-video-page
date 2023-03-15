@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
+    font-size: 18px;
 }
+
 .nav-bar, .group1, .group2, .group3 {
     display: flex;
     justify-content: space-between;
@@ -14,7 +16,7 @@
 .body-div {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    
 }
 .menu-btn {
     border: none;
@@ -103,8 +105,39 @@ iframe {
     border-radius: 35px;
     color: white;
     font-size: 20px;
-    font-weight: 700;
+    padding: 15px;
 }
 .account-info-g2 > img{
     margin: 0px 25px;
+}
+.hashtags-description {
+    background-color: rgb(229, 231, 233, 0.5);
+    margin-top: 20px;
+}
+.hashtags, .time-of-comment {
+    color: rgb(98, 99, 100);
+}
+.comments {
+    margin-top: 20px;
+}
+.comments > div {
+    margin-bottom: 50px;
+}
+
+.comments > div > img {
+    float: left;
+    margin-right: 20px;
+}
+.comment-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.comment-icons > div, .comment-icons > img {
+    margin-left: 10px;
+}
+.comments > div > input {
+    border: none;
+    border-bottom: 2px solid rgb(211, 200, 200);
+    margin-left: 20px;
 }
